@@ -1,0 +1,55 @@
+.news{
+    position: sticky;
+    top: 100px;
+    background-color: white;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    flex:0.3;
+    margin-top: 20px;
+}
+.news__feed{    
+    text-align: left;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news__news{
+padding-bottom: 22px;
+padding-right: 22px;
+
+}
+.list{
+
+    text-align: left;
+  
+}
+.perks{
+    display: flex;
+    font-size: 13px;
+    color:gray;
+    text-align: left;
+    align-items: start;
+    
+    
+}
+.perks p{
+    text-align: left;
+    
+}
+
+li{
+    font-weight: 600;
+    margin: 0;
+   
+}
+.indi__news{
+    padding: 5px;
+}
+.indi__news:hover{
+    background-color:whitesmoke;
+    border-radius: 10px;
+
+}
